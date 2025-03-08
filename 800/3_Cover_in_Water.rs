@@ -53,6 +53,20 @@ fn main() {
                 tmp = 0;
             }
         }
+
+        // if you index through the string
+        // for i in 0..s.len() {
+        //     if &s[i..i+1] == "." {  // &s[i..i+1] gives you single char but it's presented as string
+        //         dot += 1;
+        //         tmp += 1;
+        //         if tmp > longest {
+        //             longest = tmp;
+        //         }
+        //     } else {
+        //         tmp = 0;
+        //     }
+        // }
+        
         if longest > 2 {
             println!("2");
         } else {
