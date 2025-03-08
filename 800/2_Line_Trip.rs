@@ -1,5 +1,5 @@
 /*
-problem link: 
+problem link: https://codeforces.com/problemset/problem/1901/A
 test input:
 3
 3 7
