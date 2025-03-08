@@ -21,6 +21,7 @@ YES
 NO
 */ 
 
+#![allow(unused)] // as we are not going to use the array, added this to avoid the warning
 use std::io;
  
 fn sort_check(arr: &Vec<i32>) -> bool {
